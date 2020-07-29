@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      body{
+        background-image: 
+      }
+    </style>
+    <titel>
+      <h1 id="title">freeCodeCamp Survey Form</h1>
+    </titel>
+  </head>
+    <body>
+      <p id="description"><em>Thank you for taking the time to help us improve the platform</em></p>
+      <form id="survey-form">
+        <div>
+          <p id="name-label">Name</p>
+          <input id="name" placeholder="Enter your name" type="name">
+          <br>
+          <p id="email-label">Email</p>
+          <input id="email" placeholder="Enter your Email" type="email" >
+          <br>
+          <p id="number-label">Age(optional)</p>
+          <input placeholder="Age" min="1" max="100" type="number">
+          <br>
+          <p>Wich option best describes your current role?</p>
+          <select id="dropdown" name="option">
+            <option value="">Select current role</option>
+            <option value="student">Student</option>
+            <option value="fulltimejob">Full Time Job</option>
+            <option value="fulltimelearner">Full Time Learner</option>
+            <option value="prefernottostay">Prefer not to stay</option>
+            <option value="other">other</option>
+          </select>
+        </div>
+        <div>
+          <p>Would you recommend freeCodeCamp to a friend?</p>
+          <input type="radio" id="definitely">Definitely</input>
+          <br>
+          <input type="radio" id="maybe">Maybe</input>
+          <br>
+          <input type="radio" id="not-sure">Not sure</input>
+        </div>
+        <div>
+          <p>What is your favorite feature of freeCodeCamp?</p>
+          <select id="dropdown" name="feature">
+            <option value="select-an-option">Select an option</option>
+            <option value="challenges">Challenges</option>
+            <option value="projects">Projects</option>
+            <option value="community">Community</option>
+            <option value="open-source">Open Source</option>
+          </select>
+        </div>
+        <div>
+          <p>What would you like to see improved?(Check all that apply)</p>
+          <label for="front-end_projects"><input type="checkbox" value="front-end_projects">Front-end Projects</label>
+          <br>
+          <label for="back-end_projects"><input type="checkbox" value="back-end_projects">Back-end Projects</label>
+          <br>
+          <label for="data-visualization"><input type="checkbox" value="data-visualization">Data Visualization</label>
+          <br>
+          <label for="challenges"><input type="checkbox" value="challenges">Challenges</label>
+          <br>
+          <label for="open-source-community"><input type="checkbox" value="open-source-community">Open Source Community</label>
+          <br>
+          <label for="gitter-help-rooms"><input type="checkbox" value="gitter-help-rooms">Gitter help rooms</label>
+          <br>
+          <label for="videos"><input type="checkbox" value="videos">Videos</label>
+          <br>
+          <label for="city-meetups"><input type="checkbox" value="city-meetups">City Meetups</label>
+          <br>
+          <label for="wiki"><input type="checkbox" value="wiki">Wiki</label>
+          <br>
+          <label for="forum"><input type="checkbox" value="forum">Forum</label>
+          <br>
+          <label for="additional-courses"><input type="checkbox" value="additional-courses">Additional Courses</label>
+        </div>
+        <br>  
+        <div>
+          <label for="comment-and-suggestions">Any comments or suggestions?</label>
+          <br>
+          <textarea id="comment-and-suggestions" name="commi/suggestion" 
+            rows="5" cols="33">Enter your comment here...</textarea>
+        </div>
+        <div>
+          <input id="submit" type="submit">
+        </div>
+      </form>
+    </body>
+  </head>
+</html>

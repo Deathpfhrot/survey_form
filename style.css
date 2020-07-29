@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div{
+    color: white;
+    display: block;
+}
+
+input{
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 5px;
+}
+
+form{
+    border: solid black;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(95, 184, 216);
+    width: 900px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#submit{
+    background-color: rgb(14, 177, 35);
+    color: rgb(255, 255, 255);
+}
