@@ -1,29 +1,57 @@
 body{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+label{
+    padding-bottom: 10px;
+    display: block;
 }
 div{
     color: white;
     display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
-input{
-    width: 100%;
-    padding: 12px 20px;
+input, select, textarea{
+    padding: 10px;
     border-radius: 5px;
+    font-size: 14px;
+    display: block;
+    display: inline;
 }
 
 form{
     border: solid black;
     border-radius: 10px;
-    padding: 20px;
     background-color: rgb(95, 184, 216);
-    width: 900px;
-    margin: 0 auto;
     text-align: left;
+    display: block;
+    margin-left: 13%;
+    margin-right: 13%;
+    padding: 20px;
 }
 
 #submit{
     background-color: rgb(14, 177, 35);
     color: rgb(255, 255, 255);
+    width: 100%;
+}
+select{
+    width: 100%;
+}
+#name{
+    width: 80%;
+}
+#email{
+    width: 80%;
+}
+#number{
+    width: 80%;
+}
+textarea{
+    width: 100%;
 }
